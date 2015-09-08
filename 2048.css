@@ -9,7 +9,7 @@ html, body {
 }
 
 body {
-	margin: 80px 0;
+	margin: 5% 0;
 }
 
 /*头部样式控制*/
@@ -21,7 +21,7 @@ header {
 }
 
 header h1 {
-	font-size: 40px;
+	font-size:15px;
 	font-weight: bold;
 	margin:0;
 	display: block;
@@ -30,7 +30,7 @@ header h1 {
 
 header #newgamebutton {
 	display: block;
-	margin: 20px auto;
+	margin: 10px auto;
 	width: 100px;
 	padding: 10px;
 	background: #8f7a66;
@@ -38,6 +38,7 @@ header #newgamebutton {
 	color: white;
 	border-radius: 10px;
 	text-decoration: none;
+	/*float:right;*/
 }
 
 header #newgamebutton:hover {
@@ -46,8 +47,9 @@ header #newgamebutton:hover {
 
 header p {
 	font-family: Arial;
-	font-size: 25px;
-	margin: 20px auto;
+	font-size: 15px;
+	margin: 10px auto;
+	/*float: left;*/
 }
 
 
@@ -57,7 +59,7 @@ header p {
 	height: 460px;
 	padding: 20px;
 
-	margin: 50px auto;
+	margin: 20px auto;
 	background-color: #bbada0;
 	border-radius: 10px;
 	position: relative;
