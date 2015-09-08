@@ -55,6 +55,7 @@ function init () {
 		}
 	}
 
+	score = 0;
 	$('#score').text(0);
 	updateBoardView();
 	
